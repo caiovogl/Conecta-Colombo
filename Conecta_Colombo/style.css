@@ -30,6 +30,7 @@ header h3{
     font-weight: bolder;
     color: rgb(245, 245, 245);
     text-shadow: 0 1px 10px black;
+    text-align:center;
 }
 
 section h3{
@@ -131,4 +132,5 @@ section h3{
 
 footer{
     padding: 15px;
+
 }
