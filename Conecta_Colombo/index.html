@@ -69,11 +69,12 @@
         <h3>Quer se Candidatar?</h3>
         <form action="" id="formulario">
             <p>Nome:</p>
-            <input type="text" name="Nome" class="inputs">
+            <input type="text" name="Nome" class="inputs" maxlength="100" id="nome">
             <p>Email:</p>
-            <input type="text" name="Email" class="inputs">
+            <input type="email" name="Email" class="inputs" maxlength="100" id="email">
             <p>Suas qualidades:</p>
-            <textarea name="Mensagem" class="inputs"></textarea>
+            <textarea name="Mensagem" class="inputs" id="qualidades" maxlength="500"></textarea>
+            <button id="enviar">Enviar</button>
         </form>
     </section>
     <footer>

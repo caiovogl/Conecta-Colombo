@@ -122,6 +122,11 @@ section h3{
 
 #formulario textarea{
     height: 150px;
+    resize: none;
+}
+
+#enviar{
+    padding: 10px;
 }
 
 footer{
